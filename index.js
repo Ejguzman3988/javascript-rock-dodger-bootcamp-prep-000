@@ -97,7 +97,7 @@ function createRock(x) {
       endGame()
        
      }
-     else if(top < 380){
+     else if(top < GAME_HEIGHT){
        window.requestAnimationFrame(moveRock)
      }
      else{
