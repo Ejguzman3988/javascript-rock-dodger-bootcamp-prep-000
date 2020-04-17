@@ -173,9 +173,8 @@ function moveDodgerLeft() {
       DODGER.style.left = `${left -= 4}px`
       window.requestAnimationFrame(step)
     }
-    window.requestAnimationFrame(step)
   }
-  
+  window.requestAnimationFrame(step)
   
 }
 
@@ -193,9 +192,8 @@ function moveDodgerRight() {
       DODGER.style.left = `${left += 4}px`
       window.requestAnimationFrame(step)
     }
-    window.requestAnimationFrame(step)
   }
-  
+  window.requestAnimationFrame(step)
   
 
 }
