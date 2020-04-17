@@ -129,7 +129,7 @@ function endGame() {
   }
   
   alert("YOU LOSE!")
-  
+  program.restart
 }
 
 function moveDodger(e) {
