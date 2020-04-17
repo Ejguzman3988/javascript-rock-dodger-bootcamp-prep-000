@@ -89,7 +89,7 @@ function createRock(x) {
      * we should remove the rock from the DOM.
      */
      
-     rock.style.top = `${top+=2}px`;
+     rock.style.top = `${top+=0.5}px`;
      if (checkCollision(rock)){
       endGame()
        
